@@ -1,0 +1,179 @@
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ServerCrashing = Instance.new("ScreenGui")
+local mains = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Nuke = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Title = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UICorner_7 = Instance.new("UICorner")
+
+-- Properties
+
+ServerCrashing.Name = "ServerCrashing"
+ServerCrashing.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ServerCrashing.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mains.Name = "mains"
+mains.Parent = ServerCrashing
+mains.Active = true
+mains.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mains.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mains.BorderSizePixel = 0
+mains.Position = UDim2.new(0.595201254, 0, 0.0197557472, 0)
+mains.Size = UDim2.new(0, 504, 0, 244)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 67, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 208, 143))}
+UIGradient.Parent = mains
+
+UICorner.Parent = mains
+
+Nuke.Name = "Nuke"
+Nuke.Parent = mains
+Nuke.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nuke.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nuke.BorderSizePixel = 0
+Nuke.Position = UDim2.new(0.301587313, 0, 0.737704933, 0)
+Nuke.Size = UDim2.new(0, 200, 0, 50)
+Nuke.Modal = true
+Nuke.Font = Enum.Font.SourceSans
+Nuke.Text = "nuke server"
+Nuke.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nuke.TextSize = 14.000
+
+UICorner_2.Parent = Nuke
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 6, 6)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(9, 1, 255))}
+UIGradient_2.Parent = Nuke
+
+Title.Name = "Title"
+Title.Parent = mains
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.301587313, 0, 0.0491803288, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "SystemWasTaken HUB"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+UICorner_3.Parent = Title
+
+Frame.Parent = mains
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.027777778, 0, 0.0491803288, 0)
+Frame.Size = UDim2.new(0, 27, 0, 30)
+
+UICorner_4.Parent = Frame
+
+UIAspectRatioConstraint.Parent = Frame
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 36, 0, 27)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UIAspectRatioConstraint_2.Parent = TextButton
+
+UICorner_5.Parent = TextButton
+
+Frame_2.Parent = ServerCrashing
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.927158594, 0, 0.474826902, 0)
+Frame_2.Size = UDim2.new(0, 27, 0, 30)
+
+UICorner_6.Parent = Frame_2
+
+UIAspectRatioConstraint_3.Parent = Frame_2
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(0, 36, 0, 27)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Show"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UIAspectRatioConstraint_4.Parent = TextButton_2
+
+UICorner_7.Parent = TextButton_2
+
+-- Scripts:
+
+local function XVMMUFE_fake_script() -- Nuke.NukeScript 
+	local script = Instance.new('Script', Nuke)
+
+	local message = Instance.new("Message", "End.", game.CoreGui)
+	message.Text = "The End."
+	task.wait(3)
+	message.Text = "I think you may say goodluck for this server."
+	task.wait(3)
+	message.Text = "game.CoreGui.RobloxGui:Remove()"
+	game.CoreGui.RobloxGui:Remove()
+	game.CoreGui.RobloxGUIEditor.RobloxLocked = false
+	game.CoreGui.RobloxGUIEditor:Remove()
+	task.wait(3)
+	message.Text = "I already deleted that."
+	task.wait(3)
+	message.Text = "Say 'Ready' if ready for crash this server"
+	task.wait(3)
+	message.Text = "3..."
+	task.wait(3)
+	message.Text = "2..."
+	task.wait(3)
+	message.Text = "1..."
+	task.wait(3)
+	message.Text = "0..."
+	task.wait(3)
+	message.Text = "Well, goodluck."
+	task.wait(3)
+	local NetworKClient = game:GetService("NetworkServer")
+	NetworKClient:SetOutgoingKBPSLimit(0.003)
+	task.wait(5)
+	game.Players.LocalPlayer:Kick("Crashed by SystemWasTaken HUB")
+end
+coroutine.wrap(XVMMUFE_fake_script)()
+local function MUZHX_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.Parent.Parent.Parent.mains.Visible = false
+end
+coroutine.wrap(MUZHX_fake_script)()
+local function UMSVJDS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.Parent.Parent.mains.Visible = true
+end
+coroutine.wrap(UMSVJDS_fake_script)()
+
+error("EXTREME DANGER: SystemWasTaken HUB GUI Has been loaded successfully without errors.")
